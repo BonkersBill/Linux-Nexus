@@ -178,3 +178,6 @@ sphinx_*/
 
 # Rust analyzer configuration
 /rust-project.json
+
+# Buildlog (NEXUS)
+build.log
