@@ -1,4 +1,4 @@
-Linux kernel
+Linux kernel - Nexus Branch
 ============
 
 There are several guides for kernel developers and users. These guides can
@@ -16,6 +16,14 @@ several of them using the Restructured Text markup notation.
 Please read the Documentation/process/changes.rst file, as it contains the
 requirements for building and running the kernel, and information about
 the problems which may result by upgrading your kernel.
+
+---
+
+## Nexus Notes
+
+This repository may fail to checkout on Windows with an error "invalid path".  In the "empty" directory that results, edit `.git\config` to add `protectNTFS = false` to the `[Core]` section
+
+---
 
 Build status for rpi-6.1.y:
 [![Pi kernel build tests](https://github.com/raspberrypi/linux/actions/workflows/kernel-build.yml/badge.svg?branch=rpi-6.1.y)](https://github.com/raspberrypi/linux/actions/workflows/kernel-build.yml)
