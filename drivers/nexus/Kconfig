@@ -7,7 +7,7 @@ menuconfig NEXUS
 if NEXUS
     menuconfig NEXUS_CAN
         depends on SPI
-        bool "CAN Bus Drivers Present"
+        tristate "CAN Bus Drivers Present"
         default y
         if NEXUS_CAN
             menuconfig NEXUS_CAN0 
